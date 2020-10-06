@@ -4,10 +4,10 @@ class Conexion{
 
 	static public function conectar(){
 
-		$link = new PDO("mysql:host=w1kr9ijlozl9l79i.chr7pe7iynqr.eu-west-1.rds.amazonaws.com;
-		                 dbname=jnzg8wzhk5fyhzxd",
-			            "yxp9ws1ljdru1oc1",
-			            "jhmaguzyqhkofugn");
+		$link = new PDO("mysql:host=muowdopceqgxjn2b.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;
+		                 dbname=lmwyiyw1s0xlqfzk",
+			            "nvxassa9gwm0mmhi",
+			            "r1xkjaw6p87ufn9j");
 
 		$link->exec("set names utf8");
 
