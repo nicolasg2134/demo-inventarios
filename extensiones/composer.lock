@@ -25,7 +25,9 @@
                 "ext-json": "*",
                 "ext-zlib": "*",
                 "mike42/gfx-php": "^0.6",
-                "php": ">=7.0.0"
+                "php": ">=7.0.0",
+                "ext-gd": "*",
+                "gd": "*"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5",
